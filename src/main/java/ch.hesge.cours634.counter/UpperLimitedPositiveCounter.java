@@ -8,7 +8,6 @@ public class UpperLimitedPositiveCounter extends Counter{
         this.max = max;
     }
 
-
     @Override
     public void add(int step) throws CounterException {
         int tmp = this.initial;
