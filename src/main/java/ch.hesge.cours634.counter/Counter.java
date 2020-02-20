@@ -7,11 +7,9 @@ public class Counter implements ICounter {
         this.initial = initial;
     }
 
-
     public void inc() throws CounterException {
         add(1);
     }
-
 
     public void add(int step) throws CounterException {
         this.initial += step;
