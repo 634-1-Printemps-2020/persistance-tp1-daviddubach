@@ -24,6 +24,5 @@ public class Main {
         System.out.println(cLimited.getValue() + " (add 4)");
         cLimited.add(3);
         System.out.println(cLimited.getValue() + " (add 3)");
-
     }
 }
