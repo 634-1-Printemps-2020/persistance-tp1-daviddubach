@@ -9,6 +9,7 @@ public class Counter implements ICounter {
 
     public void inc() throws CounterException {
         add(1);
+
     }
 
     public void add(int step) throws CounterException {
@@ -17,5 +18,6 @@ public class Counter implements ICounter {
 
     public int getValue() {
         return this.initial;
+
     }
 }
